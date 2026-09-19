@@ -1,10 +1,10 @@
 const PERSONS=[
 {id:"samuel",name:"Samuel",color:"#2563eb"},
-{id:"anna",name:"Anna",color:"#db2777"},
-{id:"piet",name:"Piet",color:"#16a34a"},
-{id:"lisa",name:"Lisa",color:"#ea580c"},
-{id:"jan",name:"Jan",color:"#7c3aed"},
-{id:"marie",name:"Marie",color:"#0891b2"}];
+{id:"jonathan",name:"Jonathan",color:"#db2777"},
+{id:"jurian",name:"Jurian",color:"#16a34a"},
+{id:"laurens",name:"Laurens",color:"#ea580c"},
+{id:"daniel",name:"Daniel",color:"#7c3aed"},
+{id:"pablo",name:"Pablo",color:"#0891b2"}];
 
 const db=supabase.createClient(window.SUPABASE_CONFIG.url,window.SUPABASE_CONFIG.key);
 let selected=null,running=false,startAt=0,frame=null,pending=null;
